@@ -1,0 +1,72 @@
+.hoverItems{
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+}
+.hoverItems span{
+    opacity: 0;
+}
+.group:hover .hoverItems, .group:hover span{
+    opacity: 1;
+}
+.hoverItems span{
+    margin-left: 10px;
+}
+
+
+@media (max-width:767px) {
+    
+    .mainBox{
+        padding-top: 0;
+    }
+    .tagg ul {
+        gap: 1.5rem;
+    }
+    .tagg ul li{
+        height: auto;
+        width:6rem ;
+        
+    }
+    .tagg ul li .imageBox{
+        height: 5rem;
+        width: 5rem;
+
+    }
+    .tagg ul li span{
+        font-size: 13px;
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+    }
+    .left .leftTop{
+        display: none;
+    }
+
+    .mbprofile{
+        display: flex;
+    }
+   
+    .rightTop .bottomInfo{
+        width: 100vw;
+        padding-left: 1rem;
+    }
+    .rightTop .middleInfo{
+        display: none;
+    }
+
+    .MleftTop{
+        display: flex;
+        gap: 3rem;
+       margin-left: 0px;
+    }
+    .MleftTop .MimageBox{
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .MomiddleInfo{
+        display: flex;
+    }
+}
+

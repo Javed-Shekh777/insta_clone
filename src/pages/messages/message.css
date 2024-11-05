@@ -1,0 +1,79 @@
+@media (min-width:767px) and (max-width: 1000px) {
+    .messageLeftPart{
+        width: 6rem;
+    }
+    .messageLeftPartBottom{
+        overflow: scroll;
+    }
+    .messageRightPartTopLeft,.mid,.activeUsersConainer ,.boxContainer .lastMessage{
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .messageLeftPart{
+        width: 6rem;
+    }
+    .messageLeftPartBottom{
+        overflow: scroll;
+    }
+    .messageRightPartTopLeft,.mid,.activeUsersConainer ,.boxContainer .lastMessage{
+        display: none;
+    }
+
+
+    
+
+ @media (max-width:767px) {
+    .main{margin-left: 0px !important;}
+    .sidebar {
+        width: 100% !important;
+        display: flex;
+        background-color: red;
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        border-top: 1px solid #ddd;
+        background-color: #fff;
+        left: 0;
+        height: 3.75rem;
+    }
+
+    .sidebar .lastitems {
+        display: none;
+    }
+
+    .sidebar .items {
+        display: none;
+    }
+
+    .sidebar .mobile {
+        display: block;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .sidebar .itemText {
+        display: none;
+    }
+
+    .sidebar #mobileHome {
+        margin: 0;
+    }
+
+    /* .sidebar #mobileHome svg {
+        font-size: 35px;
+    } */
+
+
+
+}
+
+
+
+}

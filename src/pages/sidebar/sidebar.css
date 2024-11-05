@@ -1,0 +1,99 @@
+ 
+
+@media (min-width:1920px) {
+     .sidebar {
+         width: 17.875rem;
+         height: 100vh;
+     }
+ }
+
+
+
+ @media (min-width:767px) and (max-width: 1264px) {
+     .sidebar {
+         width: 4rem;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         height: 100vh;
+         position: relative;
+     }
+
+     .sidebar .itemText {
+         display: none;
+     }
+
+     .sidebar .instalogo {
+         display: block;
+        
+         /* margin: 10px 0; */
+     }
+
+     .sidebar .items {
+         padding: 6px 8px 4px;
+     }
+
+
+ }
+
+
+
+ @media (max-width:767px) {
+     .sidebar {
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         position: fixed;
+         bottom: 0;
+         justify-content: space-between;
+         padding: 0;
+         margin: 0;
+         border-top: 1px solid #ddd;
+         background-color: #fff;
+         left: 0;
+         height: 3.75rem;
+     }
+
+     .sidebar .lastitems {
+         display: none;
+     }
+
+     .sidebar .items {
+         display: none;
+     }
+
+     .sidebar .mobile {
+         display: block;
+         display: flex;
+         align-items: center;
+
+     }
+
+     .sidebar .itemText {
+         display: none;
+     }
+
+     .sidebar #mobileHome {
+         margin: 0;
+     }
+
+     /* .sidebar #mobileHome svg {
+         font-size: 35px;
+     } */
+
+
+
+ }
+
+
+
+
+
+ @media (min-width:1264px) and (max-width: 1919px) {
+     .sidebar {
+         width: 15.25rem;
+         height: 100vh;
+     }
+
+ }
